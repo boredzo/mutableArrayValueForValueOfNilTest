@@ -21,7 +21,11 @@ int main(int argc, char *argv[]) {
 		owner.listOfThings = @[ @"Thing" ];
 		NSLog(@"Things 1: %@", things);
 
+#if TEST_VALUE_THAT_IS_NOT_AN_ARRAY
+		owner.listOfThings = (NSArray *)@"oops";
+#else
 		owner.listOfThings = nil;
+#endif
 		NSLog(@"Things 2: %@", things);
 	}
 	return EXIT_SUCCESS;
