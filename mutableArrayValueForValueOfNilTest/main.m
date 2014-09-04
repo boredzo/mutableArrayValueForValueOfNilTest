@@ -13,9 +13,12 @@
 int main(int argc, char *argv[]) {
 	@autoreleasepool {
 		PropertyOwner *owner = [PropertyOwner new];
-		owner.listOfThings = @[ @"Thing" ];
 
 		NSMutableArray *things = [owner mutableArrayValueForKey:@"listOfThings"];
+		NSLog(@"Things 0 (pointer only): %p", things);
+		NSLog(@"Things 0 (class only): %@", things.class);
+
+		owner.listOfThings = @[ @"Thing" ];
 		NSLog(@"Things 1: %@", things);
 
 		owner.listOfThings = nil;
