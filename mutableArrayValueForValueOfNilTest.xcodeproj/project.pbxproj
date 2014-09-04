@@ -1,0 +1,260 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315F97EB19B80AD2003CA801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315F97EA19B80AD2003CA801 /* Foundation.framework */; };
+		315F97EE19B80AD2003CA801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 315F97ED19B80AD2003CA801 /* main.m */; };
+		315F97FA19B80B1E003CA801 /* PropertyOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 315F97F919B80B1E003CA801 /* PropertyOwner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		315F97E519B80AD2003CA801 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		315F97E719B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mutableArrayValueForValueOfNilTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		315F97EA19B80AD2003CA801 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		315F97ED19B80AD2003CA801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		315F97F019B80AD2003CA801 /* mutableArrayValueForValueOfNilTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mutableArrayValueForValueOfNilTest-Prefix.pch"; sourceTree = "<group>"; };
+		315F97F819B80B1E003CA801 /* PropertyOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyOwner.h; sourceTree = "<group>"; };
+		315F97F919B80B1E003CA801 /* PropertyOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyOwner.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		315F97E419B80AD2003CA801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F97EB19B80AD2003CA801 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315F97DE19B80AD2003CA801 = {
+			isa = PBXGroup;
+			children = (
+				315F97EC19B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */,
+				315F97E919B80AD2003CA801 /* Frameworks */,
+				315F97E819B80AD2003CA801 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		315F97E819B80AD2003CA801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				315F97E719B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		315F97E919B80AD2003CA801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				315F97EA19B80AD2003CA801 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		315F97EC19B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */ = {
+			isa = PBXGroup;
+			children = (
+				315F97ED19B80AD2003CA801 /* main.m */,
+				315F97F819B80B1E003CA801 /* PropertyOwner.h */,
+				315F97F919B80B1E003CA801 /* PropertyOwner.m */,
+				315F97EF19B80AD2003CA801 /* Supporting Files */,
+			);
+			path = mutableArrayValueForValueOfNilTest;
+			sourceTree = "<group>";
+		};
+		315F97EF19B80AD2003CA801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				315F97F019B80AD2003CA801 /* mutableArrayValueForValueOfNilTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		315F97E619B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 315F97F519B80AD2003CA801 /* Build configuration list for PBXNativeTarget "mutableArrayValueForValueOfNilTest" */;
+			buildPhases = (
+				315F97E319B80AD2003CA801 /* Sources */,
+				315F97E419B80AD2003CA801 /* Frameworks */,
+				315F97E519B80AD2003CA801 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mutableArrayValueForValueOfNilTest;
+			productName = mutableArrayValueForValueOfNilTest;
+			productReference = 315F97E719B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		315F97DF19B80AD2003CA801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Peter Hosey";
+			};
+			buildConfigurationList = 315F97E219B80AD2003CA801 /* Build configuration list for PBXProject "mutableArrayValueForValueOfNilTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 315F97DE19B80AD2003CA801;
+			productRefGroup = 315F97E819B80AD2003CA801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				315F97E619B80AD2003CA801 /* mutableArrayValueForValueOfNilTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		315F97E319B80AD2003CA801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315F97FA19B80B1E003CA801 /* PropertyOwner.m in Sources */,
+				315F97EE19B80AD2003CA801 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		315F97F319B80AD2003CA801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		315F97F419B80AD2003CA801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		315F97F619B80AD2003CA801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mutableArrayValueForValueOfNilTest/mutableArrayValueForValueOfNilTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		315F97F719B80AD2003CA801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mutableArrayValueForValueOfNilTest/mutableArrayValueForValueOfNilTest-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		315F97E219B80AD2003CA801 /* Build configuration list for PBXProject "mutableArrayValueForValueOfNilTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F97F319B80AD2003CA801 /* Debug */,
+				315F97F419B80AD2003CA801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		315F97F519B80AD2003CA801 /* Build configuration list for PBXNativeTarget "mutableArrayValueForValueOfNilTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				315F97F619B80AD2003CA801 /* Debug */,
+				315F97F719B80AD2003CA801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 315F97DF19B80AD2003CA801 /* Project object */;
+}
